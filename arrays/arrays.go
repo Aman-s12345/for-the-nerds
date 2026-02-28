@@ -1,12 +1,9 @@
 package arrays
 
-import (
-	"fmt"
-)
 
-type Array struct {
-	majorityElementBruteForce (num []int) int
-	majorityElementHashMap (num []int) int
-	majorityElementSorting (num []int) int
-	majorityElementBoyerMoore (num []int) int
+type Array interface {
+	MajorityElementBruteForce (num []int) int
+	MajorityElementHashMap (num []int) int
+	MajorityElementSorting (num []int) int
+	MajorityElementBoyerMoore (num []int) int
 }
