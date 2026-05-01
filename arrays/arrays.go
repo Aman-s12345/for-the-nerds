@@ -10,9 +10,16 @@ type Array interface {
 
 	// define the interface MissingAndRepeatedValues
 	MissingAndRepeatedValuesBruteForce(grid [][]int) []int
+	MissingAndRepeatedValuesMath(grid [][]int) []int
+
+	// Merging two sorted arrays
+    MergingSortedArrays(nums1 []int, m int, nums2 []int, n int) []int
 
 
 
-	// Set
-
+	// Set Matrix Zero 
+	// SetZeroes(matrix [][]int)
+	
+    
 }
+
