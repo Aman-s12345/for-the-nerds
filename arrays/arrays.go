@@ -17,7 +17,11 @@ type Array interface {
 	MergingSortedArrayWithoutSpace(nums1 []int, m int, nums2 []int, n int) []int
 	MergingSortedArrayWithoutSpaceOptimized(nums1 []int, m int, nums2 []int, n int) []int
 
+	//  Single Number
+	SingleNumberBruteForce(nums []int) int 
+	SingleNumberoptimized(nums []int) int 
 
+	
 
 	
 	
