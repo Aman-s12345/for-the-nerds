@@ -14,11 +14,12 @@ type Array interface {
 
 	// Merging two sorted arrays
     MergingSortedArrays(nums1 []int, m int, nums2 []int, n int) []int
+	MergingSortedArrayWithoutSpace(nums1 []int, m int, nums2 []int, n int) []int
+	MergingSortedArrayWithoutSpaceOptimized(nums1 []int, m int, nums2 []int, n int) []int
 
 
 
-	// Set Matrix Zero 
-	// SetZeroes(matrix [][]int)
+	
 	
     
 }
