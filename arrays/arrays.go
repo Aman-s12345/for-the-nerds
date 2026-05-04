@@ -21,7 +21,10 @@ type Array interface {
 	SingleNumberBruteForce(nums []int) int 
 	SingleNumberoptimized(nums []int) int 
 
-	
+	// Stock Buy and sell
+	MaxProfitOptimized(prices []int) int 
+
+
 
 	
 	
