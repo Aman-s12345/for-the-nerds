@@ -31,8 +31,10 @@ type Array interface {
 	// Kadane Algorithm
 	MaxSubArray(nums []int) int 
 
+	// Max Area
+	MaxArea(height []int) int 
 
-
+	
 	
 	
     
