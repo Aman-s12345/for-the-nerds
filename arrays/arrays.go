@@ -34,7 +34,9 @@ type Array interface {
 	// Max Area
 	MaxArea(height []int) int 
 
-	
+	// SortColor
+	SortColorsNaive(nums []int) 
+	SortColorsOptimized(nums []int) 
 	
 	
     
