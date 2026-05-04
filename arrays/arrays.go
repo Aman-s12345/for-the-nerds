@@ -24,6 +24,13 @@ type Array interface {
 	// Stock Buy and sell
 	MaxProfitOptimized(prices []int) int 
 
+	// Math Pow
+	MyPowNaive(x float64, n int) float64
+	MyPowOptmized(x float64, n int) float64 
+
+	// Kadane Algorithm
+	MaxSubArray(nums []int) int 
+
 
 
 	
