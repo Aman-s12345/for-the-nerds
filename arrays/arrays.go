@@ -37,6 +37,10 @@ type Array interface {
 	// SortColor
 	SortColorsNaive(nums []int) 
 	SortColorsOptimized(nums []int) 
+
+	// three sum
+	ThreeSum(nums []int) [][]int
+	
 	
 	
     
