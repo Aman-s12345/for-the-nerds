@@ -40,6 +40,9 @@ type Array interface {
 
 	// three sum
 	ThreeSum(nums []int) [][]int
+
+	// four sum
+	FourSumOptmized(nums []int, target int) [][]int
 	
 	
 	
