@@ -44,6 +44,9 @@ type Array interface {
 	// four sum
 	FourSumOptmized(nums []int, target int) [][]int
 	
+	// search Matric
+	SearchMatrix(matrix [][]int, target int) bool 
+
 	
 	
     
