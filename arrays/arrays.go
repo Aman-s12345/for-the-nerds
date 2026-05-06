@@ -47,7 +47,10 @@ type Array interface {
 	// search Matric
 	SearchMatrix(matrix [][]int, target int) bool 
 
-	
+	// set matrix zero
+	SetZeroesBruteForce(matrix [][]int)
+	SetZeroesBetter(matrix [][]int)
+	SetMatrixOptimal(matrix [][]int) 
 	
     
 }
