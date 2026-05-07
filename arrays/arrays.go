@@ -54,6 +54,12 @@ type Array interface {
 
 	// Merge overlapping interval
 	MergeInterval(intervals [][]int) [][]int
+
+	// Length Of Longest Substring
+	LengthOfLongestSubstring(s string) int 
+
+	
+
     
 }
 

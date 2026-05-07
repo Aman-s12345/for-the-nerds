@@ -1,6 +1,8 @@
 package arrays
 
-import "sort"
+import (
+	"sort"
+)
 
 func (a *array) FourSumOptmized(nums []int, target int) [][]int {
 	sort.Slice(nums, func(i, j int) bool {
@@ -46,5 +48,4 @@ func (a *array) FourSumOptmized(nums []int, target int) [][]int {
 	}
 
 	return ans
-
 }
