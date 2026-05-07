@@ -51,7 +51,9 @@ type Array interface {
 	SetZeroesBruteForce(matrix [][]int)
 	SetZeroesBetter(matrix [][]int)
 	SetMatrixOptimal(matrix [][]int) 
-	
+
+	// Merge overlapping interval
+	MergeInterval(intervals [][]int) [][]int
     
 }
 
