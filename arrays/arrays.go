@@ -63,5 +63,9 @@ type Array interface {
 	// Product of array except itself
 	ProductExceptSelf(nums []int) []int
 
-	
+	// Sub Array Sum
+	SubarraySumNieve(nums []int, k int) int
+
+
+
 }
