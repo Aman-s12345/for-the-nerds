@@ -58,7 +58,10 @@ type Array interface {
 	// Length Of Longest Substring
 	LengthOfLongestSubstring(s string) int 
 
-	
+	// Word Search
+	WordExist(board [][]byte, word string) bool
+
+
 
     
 }
