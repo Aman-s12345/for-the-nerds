@@ -70,7 +70,19 @@ type Array interface {
 	// Duplicate number
 	FindDuplicate(nums []int) int
 
+	// Count Inversion
+	CountInversions(arr []int32) int64 
+
+	// Spiral matrix
+	SpiralOrder(matrix [][]int) []int 
+
+	// Search Matrix 2.0
+	SearchMatrixBetter(matrix [][]int, target int) bool
+	SearchMatrixOptimal(matrix [][]int, target int) bool
 	
+
+
+
 
 
 
