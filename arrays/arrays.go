@@ -65,6 +65,12 @@ type Array interface {
 
 	// Sub Array Sum
 	SubarraySumNieve(nums []int, k int) int
+	RotateOptimal(matrix [][]int) 
+
+	// Duplicate number
+	FindDuplicate(nums []int) int
+
+	
 
 
 
