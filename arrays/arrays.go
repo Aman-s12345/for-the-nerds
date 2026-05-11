@@ -79,8 +79,10 @@ type Array interface {
 	// Search Matrix 2.0
 	SearchMatrixBetter(matrix [][]int, target int) bool
 	SearchMatrixOptimal(matrix [][]int, target int) bool
-	
 
+	// Traping rain water
+	TrapBetter(height []int) int 
+	TrapOptimal(height []int) int 
 
 
 
