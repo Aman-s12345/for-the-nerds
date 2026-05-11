@@ -84,6 +84,9 @@ type Array interface {
 	TrapBetter(height []int) int 
 	TrapOptimal(height []int) int 
 
+	// Max Sliding Window
+	MaxSlidingWindowWithHeap(nums []int, k int) []int
+
 
 
 
