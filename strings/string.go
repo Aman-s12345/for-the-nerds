@@ -6,6 +6,10 @@ type String interface {
 
 	// valid anagram
 	IsAnagramWithMap(s string, t string) bool 
-	
+	IsAnagramWithArray(s string, t string) bool 
+
+	// reverse Words
+	ReverseWords(s string) string 
+
 
 }
