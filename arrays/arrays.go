@@ -86,6 +86,8 @@ type Array interface {
 
 	// Max Sliding Window
 	MaxSlidingWindowWithHeap(nums []int, k int) []int
+	MaxSlidingWindowWithDeque(nums []int, k int) []int
+
 
 
 
