@@ -11,5 +11,10 @@ type String interface {
 	// reverse Words
 	ReverseWords(s string) string 
 
+	// remove Occurrance
+	RemoveOccurrences(s string, part string) string 
+
+	// 
+
 
 }
