@@ -17,5 +17,8 @@ type String interface {
 	// check Inclusion
 	CheckInclusionWithPermutation(s1 string, s2 string) bool
 
+	// Compress
+	Compress(chars []byte) int
+
 
 }
