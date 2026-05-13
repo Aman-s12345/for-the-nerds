@@ -14,7 +14,8 @@ type String interface {
 	// remove Occurrance
 	RemoveOccurrences(s string, part string) string 
 
-	// 
+	// check Inclusion
+	CheckInclusionWithPermutation(s1 string, s2 string) bool
 
 
 }
