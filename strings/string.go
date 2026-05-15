@@ -19,6 +19,8 @@ type String interface {
 
 	// Compress
 	Compress(chars []byte) int
-
+	// longest Common Prefix
+	LongestCommonPrefix(strs []string) string
 
 }
+
