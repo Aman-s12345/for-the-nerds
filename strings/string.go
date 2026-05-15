@@ -22,5 +22,8 @@ type String interface {
 	// longest Common Prefix
 	LongestCommonPrefix(strs []string) string
 
+	// Group Anagrams
+	GroupAnagramsWithTravesal(strs []string) [][]string 
+
 }
 
