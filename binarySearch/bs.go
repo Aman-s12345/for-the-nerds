@@ -9,4 +9,7 @@ type BS interface {
 
 	// Single Non Duplicate
 	SingleNonDuplicate(nums []int) int 
+
+	// Aggresive Cows
+	AggressiveCows(stalls []int, k int) int
 }
