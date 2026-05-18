@@ -25,5 +25,8 @@ type String interface {
 	// Group Anagrams
 	GroupAnagramsWithTravesal(strs []string) [][]string 
 
+	// Minimum Window Substring
+	MinWindow(s string, t string) string 
+
 }
 

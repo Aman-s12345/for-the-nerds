@@ -1,6 +1,8 @@
 package stringQues
 
-import "sort"
+import  (
+	"sort"
+)
 
 type pair struct {
 	idx int
@@ -9,7 +11,6 @@ type pair struct {
 
 func (a *stringQuestion) GroupAnagramsWithTravesal(strs []string) [][]string {
 	pairs := []pair{}
-
 	for i := 0; i < len(strs); i++ {
 		byteStr := []byte(strs[i])
 		sort.Slice(byteStr, func(i, j int) bool {
