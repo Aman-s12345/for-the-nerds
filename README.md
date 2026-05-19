@@ -1,6 +1,8 @@
-# DSA Sheet Solutions in Go 🚀
+#  This repo is a Solution of Apna College DSA in Go + Solution of Gophercises
 
 Solutions to the [Apna College DSA Sheet](https://dsa.apnacollege.in/) implemented in **Go (Golang)**.
+
+Solutions to the [Gophercises](https://gophercises.com/)
 
 Each topic is organized as its own **Go package**, keeping the codebase clean and modular.
 
@@ -11,7 +13,10 @@ Each topic is organized as its own **Go package**, keeping the codebase clean an
 ```
 .
 ├── main.go
-├── topics/
+├── gophercise/
+│   ├── topic.go           # Interface definitions
+│   └── questions.go       # Implementations
+├── apna-college-dsa/
 │   ├── topic.go           # Interface definitions
 │   └── questions.go       # Implementations
 ```
