@@ -2,7 +2,7 @@ package recursionbacktracking
 
 import "sort"
 
-func CombinationSumINaive(candidates []int, target int) [][]int {
+func (a *rb)CombinationSumINaive(candidates []int, target int) [][]int {
 	ans := [][]int{}
 
 	findSum(candidates, target, 0, 0, &ans, []int{})
@@ -36,7 +36,7 @@ func findSum(arr []int, tar int, sum int, idx int, ans *[][]int, store []int) {
 
 
 
-func CombinationSumIOptimized(candidates []int, target int) [][]int {
+func (a *rb)CombinationSumIOptimized(candidates []int, target int) [][]int {
 	ans := [][]int{}
 
 	sort.Ints(candidates)
