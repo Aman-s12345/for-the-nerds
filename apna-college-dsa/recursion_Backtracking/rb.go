@@ -15,4 +15,7 @@ type RB interface {
 	// knight move
 	CheckValidGrid(grid [][]int) bool
 
+	// Subset with duplicates
+	SubsetsWithDup(nums []int) [][]int
+
 }
