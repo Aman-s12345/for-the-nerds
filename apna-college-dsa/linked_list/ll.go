@@ -1,6 +1,11 @@
 package linkedlist
 
 type LinkedList interface {
+
+	// Middle of the Node
+	MiddleNode(head *ListNode) *ListNode
+	// Reverse the List
+	ReverseList(head *ListNode) *ListNode
 }
 
 type linkedList struct{}
