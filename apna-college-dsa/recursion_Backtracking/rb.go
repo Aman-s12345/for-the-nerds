@@ -9,4 +9,10 @@ type RB interface {
 	// Partition Palindrome
 	Partition(s string) [][]string 
 
+	// Solve N Queens
+	SolveNQueens(n int) [][]string 
+
+	// knight move
+	CheckValidGrid(grid [][]int) bool
+
 }
