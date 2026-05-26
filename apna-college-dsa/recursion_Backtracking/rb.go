@@ -18,4 +18,7 @@ type RB interface {
 	// Subset with duplicates
 	SubsetsWithDup(nums []int) [][]int
 
+	// Merge Sort
+	SortArray(nums []int) []int
+
 }
