@@ -10,6 +10,10 @@ type LinkedList interface {
 	 DetectCycle(head *ListNode) *ListNode 
 	 // Has Cycle 
 	 HasCycle(head *ListNode) bool
+	 // Merge Two Sorted Lists
+	 MergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode
+	 MergeTwoListsInPlace(list1 *ListNode, list2 *ListNode) *ListNode
+	 
 }
 
 type linkedList struct{}
