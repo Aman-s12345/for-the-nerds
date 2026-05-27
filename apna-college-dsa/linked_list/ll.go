@@ -6,6 +6,8 @@ type LinkedList interface {
 	MiddleNode(head *ListNode) *ListNode
 	// Reverse the List
 	ReverseList(head *ListNode) *ListNode
+	// Detect Cycle
+	 DetectCycle(head *ListNode) *ListNode 
 }
 
 type linkedList struct{}
