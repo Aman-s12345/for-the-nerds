@@ -8,6 +8,8 @@ type LinkedList interface {
 	ReverseList(head *ListNode) *ListNode
 	// Detect Cycle
 	 DetectCycle(head *ListNode) *ListNode 
+	 // Has Cycle 
+	 HasCycle(head *ListNode) bool
 }
 
 type linkedList struct{}
