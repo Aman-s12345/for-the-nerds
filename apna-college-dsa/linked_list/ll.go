@@ -15,6 +15,9 @@ type LinkedList interface {
 	 MergeTwoListsInPlace(list1 *ListNode, list2 *ListNode) *ListNode
 	 // Flatten a Multilevel Doubly Linked List
 	 Flatten(root *Node) *Node
+	 // Check Palindrome
+	 IsPalindrome(head *ListNode) bool
+
 	 
 }
 
