@@ -17,6 +17,9 @@ type LinkedList interface {
 	 Flatten(root *Node) *Node
 	 // Check Palindrome
 	 IsPalindrome(head *ListNode) bool
+	 // Deep copy of a linked list with random pointer
+	 CopyRandomList(head *NodeRandom) *NodeRandom
+	 
 
 	 
 }
